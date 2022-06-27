@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InBello</title>
+    <link rel="stylesheet" href="style copy.css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a class="logo" href="/menu/index.html">In Bello </a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/menu/index.html">Início</a></li>
+                <li class="dropdown-bottom"><a href="/menu/index.html">Procendimentos</a>
+                    <nav>
+                        <ul>
+                            <li class = "dropdownleft"><a>Faciais</a>
+                                <nav>
+                                    <ul>
+                                        <li><a>Laser</a></li>
+                                        <li><a>Peeling Químico</a></li>
+                                        <li><a>Microagulhamento Robótico</a></li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li>Corporais</a></li>
+                            <li><a>Outros</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li><a href="/menu/index.html">Sobre</a></li>
+                <li><a href="/menu/index.html">Contatos</a></li>
+                <li class="dropdown-bottom"><a>Perfil</a>
+                    <nav>
+                        <ul>
+                            <li><a href="login.html">Meu Perfil</a></li>
+                            <li><a>Agendamentos</a></li>
+                        </ul>
+                    </nav>
+                </li>
+            </ul>
+    </header>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+            <div class="slide s1">
+                <img src="img1.jpg" alt="mulher com agulha">
+            </div>
+
+            <div class="slide">
+                <img src="img2.jpg" alt="mulher fazendo laser">
+            </div>
+
+            <div class="slide">
+                <img src="img3.jpg" alt="mulher limpando a pele">
+            </div>
+
+            <div class="slide">
+                <img src="img4.jpg" alt="mascara facial">
+            </div>
+
+            <div class="slide">
+                <img src="img5.jpg" alt="metade com mascara">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
+        </div>
+        
+        <div class="email">
+            <span class="details">E-mail</span>
+            <input type="email" placeholder="Digite seu e-mail" required>
+        </div>
+    </div>
+
+    <main class="container">
+        <article>Um dos centros de estética do interior do Brasil localizado em Santa Adélia - São Paulo.
+             Oferecemos o que há de melhor nas especialidades estéticas corporal, facial, bem-estar e terapia capilar. 
+            Protocolos avançados exclusivos que atendem às necessidades personalizadas de cada cliente, respeitando suas características e biotipos.
+        </article>
+    </main>
+    <script src="mobile-navbar.js"></script>
+</body>
+</html>
